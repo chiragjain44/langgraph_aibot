@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY")
-GEMINI_LINK = os.getenv("GOOGLE_LINK")
+GEMINI_LINK = os.getenv("GEMINI_LINK")
 
 
 GEMINI_URL = GEMINI_LINK + GEMINI_API_KEY
